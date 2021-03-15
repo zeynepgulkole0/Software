@@ -1,0 +1,380 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+#menu{
+    height: 80px;
+    padding: 0 20px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    color: darkblue;
+    float: left;
+    font-weight: 500;
+    
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color:darkblue;
+}
+nav a:hover{
+    border-bottom: 2px solid darkblue;
+  
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color:darkblue;
+}
+
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+    
+}
+
+#anasayfa{  
+    height: 500px;
+    background-image: url("../Foto/r4.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#black{
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#icerik{
+    position: absolute;
+    top: 50%;
+    left:40%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+#hakkimizda{
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 35px;
+    color: darkblue;
+    font-weight: 600;
+      
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    
+}
+
+#sol{
+    float: left;
+    border-right: 3px solid darkgray;
+    font-size: 30px;
+    width: 400px;
+    color: #003666;
+    
+}
+
+#h5sol{
+    line-height: 1.6;
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+#h5sol, #sag{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+span{
+    font-size: 50px;
+    margin-right: 7px;
+    line-height: 42px;
+    color: #003666;
+    font-weight: 600;
+    float: left;
+    
+}
+
+#sag{
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 100;
+    
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100{
+    margin-top: 100px;
+    
+}
+
+#pson{
+    color:#999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+    font-weight: 100;
+    font-weight: 300;
+    
+}
+
+#egitimler{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card{
+    width: 280px;
+    height: 300px;
+    border: 1px solid #ddd;
+    padding: 0;
+    display: inline-block;
+}
+
+.baslikcard{
+    font-size: 18px;
+    color: #003666;
+    
+}
+
+.cardp{
+    color: #888;
+}
+
+.card:hover{
+    border: 2px solid
+        black;
+    
+}
+
+#ekip{
+    background-color: black;
+    padding: 50px;
+    height: 750px;
+    text-align: center;
+}
+
+#ekiph3{
+    color: darkblue;
+    font-weight: 300;
+    
+}
+
+.sutun-sol-sag{
+    width: 380px;
+    float: left;
+    padding: 50px;
+    
+}
+
+.oval{
+    border-radius: 50%;
+}
+
+.ekipisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.ekipp{
+    color: #888;
+    font-size: 20px;
+}
+
+.social{
+    color:white;
+    border:1px solid white;
+    padding: 10px;
+    width: 50px;
+    border-radius:5px; 
+    margin:5px 10px;
+}
+
+.social:hover{
+    background-color: gray;
+}
+
+#iletisim{
+    background: url(../Foto/doga4.jpg);
+    background-size: cover;
+    padding: 50px;
+    height: auto;
+    text-align: center;
+}
+
+#h3iletisim{
+    color:black;
+}
+
+#iletisimopak{
+    background: rgba(255,255,255,0.4);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 500px;
+    
+}
+
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 500px;
+    text-align: left;
+}
+
+#solform{
+    width: 50%;
+    float: left;
+}
+
+#sagform{
+    width: 50%;
+    float: right;
+    
+}
+
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 7px;
+    border:1px solid #ced4da;
+    
+}
+textarea{
+    font-family: Arial;
+}
+
+input[type="submit"]{
+    cursor:pointer;
+    background-color:#445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    
+}
+
+#adresbaslik{
+    font-size:30px;
+    color: black;
+}
+
+.adresp{
+    color: black;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    font-weight: 200;
+}
+
+#copyright{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    
+}
+
+#up{
+    color:white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 15px;
+    padding: 9px 12px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
